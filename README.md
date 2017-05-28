@@ -28,7 +28,7 @@ Launch the provided playbook :
 
 <code>ansible-playbook ssh-telegram.yml</code>
 
-* French Blog post -> Coming soon ...
+* French Blog post -> https://www.abyssproject.net/2017/05/recevoir-alertes-telegram-connexion-ssh/
 
 ## Source
 The source script is available here : https://github.com/stylersnico/ssh-login-alert-telegram
