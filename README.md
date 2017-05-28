@@ -29,3 +29,10 @@ Launch the provided playbook :
 <code>ansible-playbook ssh-telegram.yml</code>
 
 * French Blog post -> Coming soon ...
+
+## Source
+The source script is available here : https://github.com/stylersnico/ssh-login-alert-telegram
+
+This is based on the work of : https://github.com/MyTheValentinus/ssh-login-alert-telegram
+
+Thanks to him :)
