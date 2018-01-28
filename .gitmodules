@@ -1,0 +1,3 @@
+[submodule "ssh-login-alert-telegram"]
+	path = ssh-login-alert-telegram
+	url = https://github.com/MyTheValentinus/ssh-login-alert-telegram.git

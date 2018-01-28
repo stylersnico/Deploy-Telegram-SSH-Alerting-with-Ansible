@@ -22,13 +22,13 @@ along with this script.  If not, see <http://www.gnu.org/licenses/gpl.txt>
 
 ## Usage
 
-Edit the provided **/etc/ansible/ressources/conf/ssh/alert.sh** file to add your telegram bot token and ID.
+Edit the provided **credentials.config** file to add your telegram bot token and ID.
 
 Launch the provided playbook :
 
 <code>ansible-playbook ssh-telegram.yml</code>
 
-* French Blog post -> https://www.abyssproject.net/2017/05/recevoir-alertes-telegram-connexion-ssh/
+* French Blog post -> https://www.abyssproject.net/2017/05/recevoir-alertes-telegram-connexion-ssh/ (not up to date)
 
 ## Source
 The source script is available here : https://github.com/stylersnico/ssh-login-alert-telegram
