@@ -15,8 +15,8 @@
     - name: Copy required files
       copy: src={{ item.src }} dest=/opt/ssh-login-alert-telegram/
       with_items:
-        - { src: '~/ansible/playbooks/Deploy-Telegram-SSH-Alerting-with-Ansible/ssh-login-alert-telegram/alert.sh', owner: root, group: root, mode: 0755 }
-        - { src: '~/ansible/playbooks/Deploy-Telegram-SSH-Alerting-with-Ansible/credentials.config', owner: root, group: root, mode: 0755  }
+        - { src: "{{ playbook_dir }}/ssh-login-alert-telegram/alert.sh", owner: root, group: root, mode: 0755 }
+        - { src: "{{ playbook_dir }}/credentials.config", owner: root, group: root, mode: 0755  }
 
     - name: Deploy the alerting
-      script: ~/ansible/playbooks/Deploy-Telegram-SSH-Alerting-with-Ansible/ssh-login-alert-telegram/deploy.sh
+      script: "{{ playbook_dir }}/ssh-login-alert-telegram/deploy.sh"
